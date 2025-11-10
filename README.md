@@ -9,8 +9,11 @@ X: 55.01586330115085
 
 
 Final Curve expressions are 
+
 x(t) = t*cos(0.524346) - exp(0.029988720*|t|)*sin(0.3*t)*sin(0.524346) + 55.015863301
+
 y(t) = 42 + t*sin(0.524346) + exp(0.029988720*|t|)*sin(0.3*t)*cos(0.524346)
+
 
 # Method Used
 I obtained the unknown parameters (M,Theta,X) by minimizing the L1 error between the given CSV (x,y) points and the model equations using differential evolution (global optimization) in Python. 
