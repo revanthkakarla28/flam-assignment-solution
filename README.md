@@ -2,8 +2,11 @@
 Below are the optimised values of Unknown Parameters M,Theta,X obtained from the parametric equation
 # Unknown Parameters
 Theta (degrees): 30.042849450547024 degrees ,in radians = 0.524346
+
 M: 0.02998871984125151
+
 X: 55.01586330115085
+
 
 Final Curve expressions are 
 x(t) = t*cos(0.524346) - exp(0.029988720*|t|)*sin(0.3*t)*sin(0.524346) + 55.015863301
